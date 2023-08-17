@@ -40,21 +40,19 @@ Talk-Hub is a real-time chat web application that allows users to engage in both
 
 3. Install the dependencies for both the frontend and backend:
    ```
-   first in React-ChatApp
    npm install
    cd frontend
    npm install
    ```
 
 4. Set up your MongoDB database:
-   - Create a `.env` file in the `backend` directory and add your MongoDB connection string:
+   - Create a `.env` file in the `Backend` directory and add your MongoDB connection string:
      ```
      MONGODB_URI=your_mongodb_connection_string
      ```
 
 5. Start the backend server:
    ```
-   cd backend
    npm start
    ```
 
@@ -68,7 +66,7 @@ Talk-Hub is a real-time chat web application that allows users to engage in both
 
 ## Usage
 
-1. **Sign Up / Log In**: Create an account using your email and password or log in if you already have an account.
+1. **Sign Up / Log In**: Create an account or log in if you already have an account.
 
 2. **Group Chats**: Create a new group chat or join an existing one by selecting the group chat option and inviting your friends.
 
@@ -88,10 +86,3 @@ This project was made possible by the contributions of the open-source community
 - MongoDB
 - Socket.io
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize this readme template according to your project's specific details and needs. Good luck with your Talk-Hub Chat Web App!
